@@ -6,5 +6,6 @@ TODO
 - component scan for external/additional math operators
 
 INFO
-- complete eclipse project
-- written in java
+- complete Eclipse project
+- written in Java
+- featuring JUnit
