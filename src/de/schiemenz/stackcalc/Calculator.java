@@ -70,7 +70,7 @@ public class Calculator {
 		}
 	}
 	/**
-		Registers mathematical the functions - 
+		Registers the mathematical functions - 
 		can be used to include external stack operators
 	*/
 	public static void registerOperators()
