@@ -11,6 +11,12 @@ public class StackDivision extends StackOperator {
 	{	
 		double operandA = (Double)stack.pop();
 		double operandB = (Double)stack.pop();
+		
+		if(operandA == 0.0d)
+		{
+			throw new ArithmeticException();
+		}
+		
 		stack.push(operandB / operandA);
 		
 		return stack;

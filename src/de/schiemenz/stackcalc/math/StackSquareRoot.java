@@ -9,10 +9,18 @@ public class StackSquareRoot extends StackOperator {
 	@Override
 	public Stack<Double> getResult(Stack<Double> stack) 
 	{	
-		double operandA = (Double)stack.pop();
-		stack.push(Math.sqrt(operandA));
-			
-		return stack;
+		double radicand = (Double)stack.pop();
+		double squareRoot = Math.sqrt(radicand);
+		
+		if(Double.isNaN(squareRoot))
+		{
+			throw new ArithmeticException(); 
+		}
+		else
+		{
+			stack.push(squareRoot);
+			return stack;
+		}
 	}
 
 	@Override
