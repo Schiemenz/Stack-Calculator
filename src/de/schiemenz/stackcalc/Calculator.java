@@ -33,6 +33,8 @@ public class Calculator {
 			}
 		}
 		
+		scanner.close();
+		
 		System.exit(0);
 	}
 	/**
@@ -104,7 +106,6 @@ public class Calculator {
 	*/
 	private static void printStack()
 	{
-		// TODO custom output
 		System.out.println("Stack " + m_stack.toString());	
 	}
 }

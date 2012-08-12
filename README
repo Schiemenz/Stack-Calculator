@@ -3,7 +3,7 @@ written by F.Schiemenz
 
 TODO
 - pretty stack prints
-- component scan for external/additional math operators
+- dynamic scan for math operators
 
 INFO
 - complete Eclipse project
